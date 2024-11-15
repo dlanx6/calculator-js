@@ -45,6 +45,7 @@ body {
     margin: 0;
     padding: 1rem;
     border-radius: 1rem;
+    pointer-events: none;
 }
 
 #calculator-container #result {
@@ -64,6 +65,7 @@ body {
     gap: 1rem;
     direction: ltr;
     margin: 1rem auto 1rem auto;
+    pointer-events: none;
 }
 
 #buttons button {
@@ -75,6 +77,7 @@ body {
     font-size: 1.3rem;
     font-weight: bold;
     cursor: pointer;
+    pointer-events: all;
 }
 
 #buttons button:active {
