@@ -43,6 +43,7 @@ buttons.addEventListener('click', event => {
         {
             console.log("2");
             display.value = "Syntax Error";
+            expression = "";
         }
         else // If the key is a valid input, then store and display.
         {
