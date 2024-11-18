@@ -87,7 +87,7 @@ body {
 }
 
 #buttons button:focus {
-    outline: none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 #buttons .orange {
