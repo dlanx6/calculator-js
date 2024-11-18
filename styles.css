@@ -86,6 +86,10 @@ body {
     background-color: var(--orange);
 }
 
+#buttons button:focus {
+    outline: none;
+}
+
 #buttons .orange {
     background-color: var(--orange);
 }
